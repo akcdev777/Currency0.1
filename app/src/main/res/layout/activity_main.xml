@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="1dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editTextText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:text="@string/poundLabel" />
+
+            <EditText
+                android:id="@+id/poundsValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="150dp"
+                android:ems="10"
+                android:hint="@string/valueLabel"
+                android:inputType="numberDecimal" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <EditText
+                android:id="@+id/dollarLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:text="@string/dollarLabel" />
+
+            <EditText
+                android:id="@+id/dollarValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="150dp"
+                android:ems="10"
+                android:hint="@string/valueLabel"
+                android:inputType="numberDecimal" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <EditText
+                android:id="@+id/euroLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:text="@string/euroLabel" />
+
+            <EditText
+                android:id="@+id/euroValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="150dp"
+                android:ems="10"
+                android:hint="@string/valueLabel"
+                android:inputType="numberDecimal" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/clearButton"
+                style="@style/Widget.Material3.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/clearLabel" />
+
+            <Button
+                android:id="@+id/convertButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/convertLabel" />
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

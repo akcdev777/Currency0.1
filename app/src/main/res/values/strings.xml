@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Currency0.1</string>
+    <string name="poundLabel">Pounds</string>
+    <string name="dollarLabel">Dollar</string>
+    <string name="wrong" />
+    <string name="euroLabel">Euro</string>
+    <string name="clearLabel">Clear</string>
+    <string name="convertLabel">Convert</string>
+    <string name="valueLabel">Value</string>
+</resources>
