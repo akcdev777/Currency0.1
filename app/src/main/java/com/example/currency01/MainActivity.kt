@@ -88,7 +88,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun fetchExchangeRates(): Map<String, Float> {
-        val apiKey = "YOUR_API_KEY_HERE"
+        val apiKey = "ULS2HWW5YXGELDW5"
         val currencies = listOf("GBP", "USD", "EUR")
         val rates = mutableMapOf<String, Float>()
 
